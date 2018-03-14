@@ -107,7 +107,7 @@ def translate_voice(content_data,filename):
 ```
 ### -test.py
 * 如果要测试百度ai语音的weather.info_by_wisqqcom请自己把baidu_3args的参数配置好，赋值给weather.config['baidu_3args']
-* 同样如果要获取阿凡达的天气请配置config['avata_key']的值,调用函数为
+* 同样如果要获取阿凡达的天气请配置config['avata_key']的值,调用函数为`weather.info(province,city) `
 * 注意config['avata_key']，weather.config['baidu_3args']不需要同时配，看你的需求
 ```
 import model.map_db as db
